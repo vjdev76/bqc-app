@@ -68,7 +68,7 @@ function App() {
     setIsContactFormOpen(!isContactFormOpen);
   };
 
-  const bannerImageUrl = '../src/assets/images/banner.png';
+  const bannerImageUrl = '../public/banner.png';
 
   return (
     <>
