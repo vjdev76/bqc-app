@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import banner from '../assets/images/gallery/gallery1.jpg';
+import banner from '../assets/images/testeo.jpg';
 const ImageGrid = () => {
 
   const mediaItems = [
-    { id: 1, type: 'image', src: banner, alt: 'Zona de Cobertura BQC' },
+    { id: 1, type: 'image', src: banner, alt: 'Zona de Cobertura BQC-' },
     { id: 2, type: 'image', src: 'src/assets/images/gallery/gallery2.jpg', alt: 'Zona de Cobertura BQC' },
     { id: 3, type: 'image', src: 'src/assets/images/gallery/gallery3.jpg', alt: 'Zona de Cobertura BQC' },
     { id: 4, type: 'video', src: 'src/assets/videos/BQC.mp4', alt: 'Video de ejemplo' },
