@@ -1,20 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
-import banner from '../assets/images/testeo.jpg';
+import gallery1 from '../assets/images/gallery1.jpg';
+import gallery2 from '../assets/images/gallery2.jpg';
+import gallery3 from '../assets/images/gallery3.jpg';
+import gallery4 from '../assets/images/gallery4.jpg';
+import gallery5 from '../assets/images/gallery5.jpg';
+import gallery6 from '../assets/images/gallery6.jpg';
+import gallery7 from '../assets/images/gallery7.jpg';
+import gallery8 from '../assets/images/gallery8.jpg';
+import gallery9 from '../assets/images/gallery9.jpg';
+import gallery10 from '../assets/images/gallery10.jpg';
+import gallery11 from '../assets/images/gallery11.jpg';
+import video from '../assets/images/BQC.mp4';
+
 const ImageGrid = () => {
 
   const mediaItems = [
-    { id: 1, type: 'image', src: banner, alt: 'Zona de Cobertura BQC-' },
-    { id: 2, type: 'image', src: 'src/assets/images/gallery/gallery2.jpg', alt: 'Zona de Cobertura BQC' },
-    { id: 3, type: 'image', src: 'src/assets/images/gallery/gallery3.jpg', alt: 'Zona de Cobertura BQC' },
-    { id: 4, type: 'video', src: 'src/assets/videos/BQC.mp4', alt: 'Video de ejemplo' },
-    { id: 5, type: 'image', src: 'src/assets/images/gallery/gallery10.jpg', alt: 'Zona de Cobertura BQC' },
-    { id: 6, type: 'image', src: 'src/assets/images/gallery/gallery7.jpg', alt: 'Zona de Cobertura BQC' },
-    { id: 7, type: 'image', src: 'src/assets/images/gallery/gallery8.jpg', alt: 'Zona de Cobertura BQC' },
-    { id: 8, type: 'image', src: 'src/assets/images/gallery/gallery4.jpg', alt: 'Zona de Cobertura BQC' },
-    { id: 9, type: 'image', src: 'src/assets/images/gallery/gallery9.jpg', alt: 'Zona de Cobertura BQC' },
-    { id: 10, type: 'image', src: 'src/assets/images/gallery/gallery11.jpg', alt: 'Zona de Cobertura BQC' },
-    { id: 11, type: 'image', src: 'src/assets/images/gallery/gallery5.jpg', alt: 'Zona de Cobertura BQC' },
+    { id: 1, type: 'image', src: gallery1, alt: 'Zona de Cobertura BQC' },
+    { id: 2, type: 'image', src: gallery2, alt: 'Zona de Cobertura BQC' },
+    { id: 3, type: 'image', src: gallery3, alt: 'Zona de Cobertura BQC´' },
+    { id: 4, type: 'video', src: video, alt: 'Video de ejemplo' },
+    { id: 5, type: 'image', src: gallery10, alt: 'Zona de Cobertura BQC' },
+    { id: 6, type: 'image', src: gallery7, alt: 'Zona de Cobertura BQC' },
+    { id: 7, type: 'image', src: gallery8, alt: 'Zona de Cobertura BQC' },
+    { id: 8, type: 'image', src: gallery4, alt: 'Zona de Cobertura BQC' },
+    { id: 9, type: 'image', src: gallery9, alt: 'Zona de Cobertura BQC' },
+    { id: 10, type: 'image', src: gallery11, alt: 'Zona de Cobertura BQC' },
+    { id: 11, type: 'image', src: gallery5, alt: 'Zona de Cobertura BQC' },
   ];
 
   return (
