@@ -33,7 +33,7 @@ import Welmod from '../src/assets/images/logos/Welmod.png'
 import BackToTopButton from './components/BackToTopButton';
 import ContactForm from './components/ContactForm';
 import Faq from './components/Faq';
-import BannerImage from './components/BannerImage';
+import Banner from './components/Banner';
 // test
 
 function App() {
@@ -68,13 +68,12 @@ function App() {
     setIsContactFormOpen(!isContactFormOpen);
   };
 
-  const bannerImageUrl = '../public/banner.png';
 
   return (
     <>
       <GlobalStyle />
       <Navbar onContactClick={toggleContactForm} /> {/* Pasar la función toggleContactForm al Navbar */}
-      <BannerImage imageUrl={bannerImageUrl} />
+      <Banner />
       <MainContainer>
         <ImpactContent />
         <Services />

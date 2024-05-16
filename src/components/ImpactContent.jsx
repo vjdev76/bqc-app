@@ -6,8 +6,6 @@ const ImpactContent = () => {
   return (
     <Wrapper>
       <Content>
-        <Logo src={logo} alt="Logo de la empresa" />
-        <Title>Descubre la solución completa para tus necesidades de higiene y confort con Baños Químicos Calamuchita.</Title>
         <Paragraph>
           Como líderes en el alquiler de baños químicos, duchas y obradores en el Valle de Calamuchita, nos comprometemos a brindarte un servicio de calidad incomparable.
           <br />
@@ -30,25 +28,11 @@ export default ImpactContent;
 const Wrapper = styled.div`
   display: block;
   margin-top: 1rem;
-  margin-bottom: 1rem;
-`;
-
-const Logo = styled.img`
-  float: left;
-  margin-right: 20px; 
-  width: 200px; 
-  height: auto; 
+  margin-bottom: 1rem; 
 `;
 
 const Content = styled.div`
   overflow: hidden; 
-`;
-
-const Title = styled.p`
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 0.2rem;
-  color: #333;
 `;
 
 const Paragraph = styled.p`
